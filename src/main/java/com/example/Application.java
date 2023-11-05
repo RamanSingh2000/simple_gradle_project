@@ -11,7 +11,7 @@ public class Application {
 	
 	@GetMapping
 	public String message(){
-		return "Hello Dev Team.Hurray!We have deployed the latest build for gradle";
+		return "Hello Dev Team.We have deployed the latest build for gradle.Just Confirm";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
