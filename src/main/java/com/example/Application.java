@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
 	
-	@GetMapping
+	
 	public String message(){
 		return "Hello Dev Team.Hurray!We have deployed the latest build for gradle";
 	}
