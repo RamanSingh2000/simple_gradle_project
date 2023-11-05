@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Application {
 
 	
-	@GetMapping("/hello")
+	@GetMapping
 	public String message(){
 		return "Hello Dev Team.Hurray!We have deployed the latest build for gradle";
 	}
