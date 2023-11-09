@@ -16,7 +16,9 @@ war {
     
     baseName = 'demo'
 }
-
+bootWar {
+    mainClassName = 'java.com.example.Application' // Set your main application class
+}
 repositories {
 	mavenCentral()
 }
