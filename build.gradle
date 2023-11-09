@@ -14,7 +14,7 @@ version = '0.0.1-SNAPSHOT'
 
 war {
     
-    archiveName = 'demo.war'
+    baseName = 'demo'
 }
 
 repositories {
