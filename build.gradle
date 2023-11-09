@@ -29,13 +29,13 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 
-	// def tomcatVersion = '7.0.57'
- //    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
- //            "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}"
- //    tomcat("org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}") {
- //        exclude group: 'org.eclipse.jdt.core.compiler', module: 'ecj'
+	def tomcatVersion = '7.0.57'
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+            "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}"
+    tomcat("org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}") {
+        exclude group: 'org.eclipse.jdt.core.compiler', module: 'ecj'
    
- //    }
+    }
 
 }
 
