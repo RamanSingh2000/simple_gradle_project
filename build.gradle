@@ -12,13 +12,13 @@ plugins {
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 
-war {
+// war {
     
-    baseName = 'demo'
-}
-bootWar {
-    mainClassName = 'java.com.example.Application' // Set your main application class
-}
+//     baseName = 'demo'
+// }
+// bootWar {
+//     mainClassName = 'java.com.example.Application' // Set your main application class
+// }
 repositories {
 	mavenCentral()
 }
